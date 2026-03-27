@@ -43,3 +43,21 @@ h2 {
   border-bottom: 1px solid #1e293b;
   padding-bottom: 10px;
 }
+
+details {
+  margin-bottom: 15px;
+  background: #020617;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #cbd5f5;
+}
+
+details p {
+  margin-top: 10px;
+  color: #94a3b8;
+}
