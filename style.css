@@ -28,8 +28,9 @@ header {
 }
 
 .logo {
-  width: 500px;
-  max-width: 90%;
+  width: 600px;
+  max-width: 95%;
+  margin-bottom: 20px;
 }
 
 section {
