@@ -61,3 +61,41 @@ details p {
   margin-top: 10px;
   color: #94a3b8;
 }
+
+.lore-box {
+  background: #d9d9d9;
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.lore-box summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 18px;
+  color: #0b0f1a;
+  font-weight: bold;
+}
+
+/* remove default arrow */
+.lore-box summary::-webkit-details-marker {
+  display: none;
+}
+
+/* custom arrow */
+.lore-box summary::before {
+  content: ">";
+  margin-right: 10px;
+}
+
+.lore-box[open] summary::before {
+  content: "v";
+}
+
+.lore-box p {
+  padding: 0 20px 20px 20px;
+  margin: 0;
+  color: #1e293b;
+}
